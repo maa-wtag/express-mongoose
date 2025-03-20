@@ -143,9 +143,7 @@ newUser.save()
 - Then, connect to ``mongodb://localhost:27017`` in your Mongoose configuration.
 - Mongoose and MongoDB Compatibility: Mongoose is just a Node.js library that helps manage MongoDB connections and schemas. It doesn’t depend on the hardware directly—just ensure your MongoDB server is running and accessible.
 
-This setup should help you run a local MongoDB instance and interact with it using Mongoose on your Mac Mini M1. If you need more customization or run into issues specific to your setup, the MongoDB and Mongoose documentation are excellent resources.
-
-# Troubleshootings
+### Troubleshootings
 
 ``mongod --config /usr/local/etc/mongod.conf`` Error opening config file ``'/usr/local/etc/mongod.conf'``: No such file or directory try 'mongod --help' for more information
 
