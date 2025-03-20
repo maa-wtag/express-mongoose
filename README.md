@@ -182,6 +182,4 @@ If you're still encountering issues, ensure that your MongoDB installation via H
 
 - Reinstall MongoDB (if needed): ``brew tap mongodb/brew``
 ``brew install mongodb-community``
-- Check for Installation Directories: Sometimes, paths can vary. You can use: ``find /opt/homebrew -name mongod.conf``
-- to locate the configuration file.
-  Following these steps should resolve the error and allow you to run MongoDB locally on your Mac.
+- Check for Installation Directories: Sometimes, paths can vary. You can use: ``find /opt/homebrew -name mongod.conf`` to locate the configuration file.
